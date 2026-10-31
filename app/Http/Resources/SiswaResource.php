@@ -10,7 +10,6 @@ class SiswaResource extends JsonResource
 {
   public $status;
   public $message;
-  #[Override]
   public function __construct($status, $message, $resource)
   {
     parent::__construct($resource);
